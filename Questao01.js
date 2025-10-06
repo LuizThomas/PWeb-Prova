@@ -1,8 +1,8 @@
 const rs = require('readline-sync');
 
-let a = parseFloat(rs.question("Digite o valor de a: "));
-let b = parseFloat(rs.question("Digite o valor de b: "));
-let c = parseFloat(rs.question("Digite o valor de c: "));
+let a = parseInt(rs.question("Digite o valor de a: "));
+let b = parseInt(rs.question("Digite o valor de b: "));
+let c = parseInt(rs.question("Digite o valor de c: "));
 
 let delta = b * 2 - 4 * a * c;
 
